@@ -26,5 +26,8 @@ while True:
                 duracion = int(input("Duración (horas): "))
                 funciones.agregar_servicio(nombre, precio, tipo, duracion)
                 print(" Servicio agregado correctamente")
-
-        
+        case "3":
+                print("\n¿Desea editar algún servicio?")
+                decision = input("(si / no): ").lower()
+                if decision == "si":
+                    funciones.editar_servicios()
