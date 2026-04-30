@@ -1,17 +1,16 @@
 [
     {
-    "id": 1,
-    "nombre": "Paquete Boda Premium",
-    "precio": 1500,
-    "tipo_evento": "boda",
-    "duracion_horas": 8
+        "id": 1,
+        "nombre": "boda epia",
+        "precio": 3000.0,
+        "tipo_evento": "boda",
+        "duracion_horas": 10
     },
-
     {
-    "id": 2,
-    "nombre": "Sesión Retrato Básico",
-    "precio": 200,
-    "tipo_evento": "retrato",
-    "duracion_horas": 2
+        "id": 2,
+        "nombre": "despedida de soltero",
+        "precio": 20000.0,
+        "tipo_evento": "fiesta",
+        "duracion_horas": 9
     }
 ]
