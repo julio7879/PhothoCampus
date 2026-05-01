@@ -31,3 +31,8 @@ while True:
                 decision = input("(si / no): ").lower()
                 if decision == "si":
                     funciones.editar_servicios()
+        case "4":
+            print("\n Eliminar servicio")
+            id_servicio = int(input("ID del servicio a eliminar: "))
+            funciones.eliminar_servicio(id_servicio)
+            print(" Servicio eliminado correctamente")

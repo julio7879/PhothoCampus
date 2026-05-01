@@ -1,17 +1,9 @@
 [
     {
-    "id": 1,
-    "nombre": "Paquete Boda Premium",
-    "precio": 1500,
-    "tipo_evento": "boda",
-    "duracion_horas": 8
-    },
-
-    {
-    "id": 2,
-    "nombre": "Sesión Retrato Básico",
-    "precio": 200,
-    "tipo_evento": "retrato",
-    "duracion_horas": 2
+        "id": 2,
+        "nombre": "Sesión Retrato Básico",
+        "precio": 200,
+        "tipo_evento": "retrato",
+        "duracion_horas": 2
     }
 ]
