@@ -60,3 +60,9 @@ def editar_servicios():
         print("Cambios guardados exitosamente.")
     else:
         print("No se encontro el nombre.")
+
+def eliminar_servicio(id):
+    servicios = persistencia.cargar_servicios()
+    servicios = [s for s in servicios if s["id"] != id]
+    persistencia.guardar_servicios(servicios)
+
